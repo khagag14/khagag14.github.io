@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- begin of doc -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,85 +9,91 @@
 </head>
 
 <body>
+  <!-- Table -->
     <table style="width:100%">
         <tr>
+          <!-- Personal Info -->
           <td>
-    <header class="post-header">
-        <h1 class="post-title"><strong>Karim</strong> Haggag</h1>
-        <h5 class="post-description">Phd student, TU Chemnitz </h5>
-        <div class="tel">+49 174 5423522</div>
-        <div class="email">khagag14@gmail.com</div>
-        <div class="email">karim.haggag@etit.tu-chemnitz.de</div>
-    </header>
+            <header
+                class="post-header">
+                <h1 class="post-title"><strong>Karim</strong> Haggag</h1>
+                <h5 class="post-description">Phd student, TU Chemnitz </h5>
+                <div class="tel">+49 174 5423522</div>
+                <div class="email">khagag14@gmail.com</div>
+                <div class="email">karim.haggag@etit.tu-chemnitz.de</div>
+            </header>
           </td>
-
+          <!-- Personal Info -->
           <td>
             <p
-            style="float: right;"><img src="ProautKahag.jpg" 
-            height="200px" width="200px" border="1px">
+              style="float: right;"><img src="ProautKahag.jpg" 
+              height="200px" width="200px" border="1px">
             </p>
           </td>
         </tr>
-      </table>
+    </table>
+
+    <div>
+      <!-- Personal Interests-->
+      <p> - I am a research assistant and a Ph.D. student
+           at the chair of <a class="page-link" 
+           href="https://www.tu-chemnitz.de/etit/proaut/en/team.html"> 
+           automation technology at TU Chemnitz</a>. 
+           My main focus is radar perception, where I came out with a 
+           credible ego-motion estimation algorithm for sparse point cloud 
+           and got close to different existing algorithms in the same vein. 
+           Integrating radar within a sensor fusion framework is my current 
+           interest to achieve object tracking or more demanding application 
+           such as object classification.
+      </p>
+      <!-- Personal Interests-->
+      <h3 class="h4">You can reach via :</h3>
+      <p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/karim-haggag-637a551a1/">linkedin</a></li>
+          <li><a href="https://github.com/khagag14">github profile</a></li>
+        </ul>
+      </p>
+    </div>
 </body>
-
-<div>
-
-
-    <p> - I am a research assistant and a Ph.D. student
-         at the chair of <a class="page-link" 
-         href="https://www.tu-chemnitz.de/etit/proaut/en/team.html"> 
-         automation technology at TU Chemnitz</a>. 
-         My main focus is radar perception, where I came out with a 
-         credible ego-motion estimation algorithm for sparse point cloud 
-         and got close to different existing algorithms in the same vein. 
-         Integrating radar within a sensor fusion framework is my current 
-         interest to achieve object tracking or more demanding application 
-         such as object classification.
-    </p>
-    <h3 class="h4">You can reach via :</h3>
-<p>
-  <ul>
-    <li><a href="https://www.linkedin.com/in/karim-haggag-637a551a1/">linkedin</a></li>
-    <li><a href="https://github.com/khagag14">github profile</a></li>
-  </ul>
-</p>
-</div>
-
+<!-- News, ublications, career -->
 <div class="news">
-    <h2>Publications</h2>
-    <table style="width:100%">
-        <tr>
-          <td>
-            <div class="col-xm-3 col-image">
-                <img src=creme.png title= 'Haggag, K. and Lange, S. and Pfeifer, T. and Protzel, P. (2021): A Credible and Robust approach to Ego-Motion Estimation using an Automotive Radar. ' width=100%>    </div>
-            <div class="col-xm-9"> 
-          </td>
-
-          <td>
-
-          </td>
-
-          <td>
-            <div>
-                <span class="bibtex-article"><span class="bibtex-author">Haggag, K. Lange, S. Pfeifer, T. &amp; Protzel, P.</span> (<span class="bibtex-year">2022</span>)
-                <span class="bibtex-title"><a href="TODO Linke">A Credible and Robust approach to Ego-Motion Estimation using an Automotive Radar</a></span>. <span class="bibtex-jname">IEEE Robotics and Automation Letters (RA-L)</span>. <span class="bibtex-doi">DOI: <a href="https://dx.doi.org/10.1109/LRA.2021.3067307">10.1109/LRA.2021.3067307</a></span></span>   <br><br>
-                <details>
-                <summary>Abstract</summary>
-                Consistent motion estimation is fundamental for all mobile autonomous systems.
-                While this sounds like an easy task, often, it is not the case because of changing environmental conditions affecting odometry obtained from vision, Lidar, or the wheels themselves.
-                Unsusceptible to challenging lighting and weather conditions, radar sensors are an obvious alternative.
-                
-                Usually, automotive radars return a sparse point cloud, representing the surroundings.
-                Utilizing this information to motion estimation is challenging due to unstable and phantom measurements, which result in a high rate of outliers.
-                
-                We introduce a credible and robust probabilistic approach to estimate the ego-motion based on these challenging radar measurements; intended to be used within a loosely-coupled sensor fusion framework.
-                Compared to existing solutions, evaluated on the popular nuScenes dataset and others, we show that our proposed algorithm is more credible while not depending on explicit correspondence calculation        </div> 
-              </details>        
+  <!-- Publications -->
+  <h2>Publications</h2>
+  <table style="width:100%">
+    <!-- creme publication table -->
+    <tr>
+      <!-- Creme Image -->
+      <td>
+        <div class="creme-image">
+            <img src=creme.png title= 'Haggag, K. and Lange, S. and Pfeifer,T. and Protzel, P. (2021)
+                A Credible and Robust 
+                approach to Ego-Motion Estimation using an Automotive Radar.
+            ' width=100%>
         </div>
-          </td>
-        </tr>
-      </table>    
+      <!--  <div class="col-xm-9"> -->
+      </td>
+      <!-- Creme explanation -->
+      <td>
+        <div>
+          <span class="bibtex-article"><span class="bibtex-author">Haggag, K. Lange, S. Pfeifer, T. &amp; Protzel, P.</span> (<span class="bibtex-year">2022</span>)
+          <span class="bibtex-title"><a href="TODO Linke">
+          <p> A Credible and Robust approach to Ego-Motion Estimation using an Automotive Radar</p>  
+          <details>
+            <summary>Abstract</summary>
+            Consistent motion estimation is fundamental for all mobile autonomous systems.
+            While this sounds like an easy task, often, it is not the case because of changing environmental conditions affecting odometry obtained from vision, Lidar, or the wheels themselves.
+            Unsusceptible to challenging lighting and weather conditions, radar sensors are an obvious alternative.
+            
+            Usually, automotive radars return a sparse point cloud, representing the surroundings.
+            Utilizing this information to motion estimation is challenging due to unstable and phantom measurements, which result in a high rate of outliers.
+            
+            We introduce a credible and robust probabilistic approach to estimate the ego-motion based on these challenging radar measurements; intended to be used within a loosely-coupled sensor fusion framework.
+            Compared to existing solutions, evaluated on the popular nuScenes dataset and others, we show that our proposed algorithm is more credible while not depending on explicit correspondence calculation        </div> 
+          </details>
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
-
 </html>
